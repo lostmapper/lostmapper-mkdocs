@@ -1,8 +1,16 @@
 site_name: Lost Mapper
 site_url: https://lostmapper.com/
+site_description: Wandering in the world of map-making, cartography and GIS
 theme:
-  name: null
-  custom_dir: 'custom_theme/'
-extra_css:
-  - css/site.css
-plugins: [ ]
+  name: material
+  icon:
+    logo: material/map
+  palette:
+    primary: green
+extra:
+  analytics:
+    provider: google
+    property: G-55T428V372
+plugins:
+  - blog
+  - social
