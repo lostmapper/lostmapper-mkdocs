@@ -6,17 +6,17 @@ description: Setting up Python 3, virtual environments and package management on
 
 # Python 3 on macOS
 
-From my explorations over the years it seems that Python is a particularly important language in the world of GIS. I thought it would be beat to get comfortable with how to manage Python installations and the various external packages a project may have.
+From my explorations over the years it seems that Python is a particularly important language in the world of GIS. I thought it would be best to get comfortable with how to manage Python installations and the various external packages a project might use.
 
 <!-- more -->
 
 ## Install Python with asdf
 
-I use a number of different programming languages in my day to day and after using various tools over the years have settled on using [asdf](https://asdf-vm.com) to install and manage those languages.
+I use several different programming languages in my day-to-day and after using various tools over the years have settled on using [asdf](https://asdf-vm.com) to install and manage those languages.
 
 asdf makes it easy to install multiple versions of a language and switch between them as your projects require. They provide extensive documentation on [Installing asdf](https://asdf-vm.com/guide/getting-started.html).
 
-Once asdf is installed we can run the following to install the latest Python and set that version as our default:
+Once asdf is installed we can add its Python plugin, install the latest version of Python, and set that version as our default:
 
 ```bash
 $ asdf plugin add python
@@ -38,13 +38,13 @@ $ cd lostmapper
 $ asdf local python 3.11.5
 ```
 
-Here we are making a directory for our project and switching into it. The last line creates a `.tools-version` file that lets asdf know what version of Python we want to use when we're working in that directory.
+Here we are making a directory for our project and switching into it. The last line creates a `.tools-version` file that lets asdf know what version of Python we want to use whenever we're working in that directory.
 
 ## Create and Activate a Virtual Environment
 
-When you're working on a number of different programming projects they are very likely to use both the same and different external packages. In some cases they may use the same external package but different versions of that package.
+When you're working many different programming projects they are likely to use both the same and different external packages. In some cases, they may even use the same package but a different version of that package. This can get confusing for both people and computers!
 
-In order to avoid conflicts between the packages in any two projects its best to give each project their own space to exist in. In Python these are know as Virtual Environments and are managed using Python's [venv module](https://docs.python.org/3/library/venv.html).
+To avoid conflicts between the packages in any two projects it is best to give each project its own space to exist in. In Python, these are known as Virtual Environments and are managed using Python's [venv module](https://docs.python.org/3/library/venv.html).
 
 To create and activate a virtual environment, use the following commands:
 
@@ -53,7 +53,7 @@ $ python -m venv .venv
 $ source .venv/bin/activate
 ```
 
-The first line creates a virtual environment in the subdirectory `.venv`. The second line activates that virtual environment. After that, any packages we add will only be installed withinin that virtual environment.
+The first line creates a virtual environment in the subdirectory `.venv`. The second line activates that virtual environment. After that, any packages we add will only be installed within that virtual environment.
 
 ### Ignore .venv in Version Control
 
@@ -61,14 +61,14 @@ If you're using a version control system like [Git](https://git-scm.com) you'll 
 
 ## Visualize Python Versions and Virtual Environments (Optional)
 
-I use a tool called [Starship](https://starship.rs) that gives me a succinct and information prompt in my terminal. It lets me know:
+I use a tool called [Starship](https://starship.rs) that gives me a succinct and informational prompt in my terminal. It lets me know:
 
 - What directory I'm currently in
 - Which branch I'm on when using version control systems like [Git](https://git-scm.com)
-- What languages and versions of languages being used
+- What languages and versions of languages are being used
 - What virtual environment I'm currently in, if any
 
-For example, at this point my prompt looks like this:
+For example, at this point, my prompt looks like this:
 
 ```bash
 ~/workspace/lostmapper via 🐍 v3.11.5 (.venv)
@@ -90,7 +90,7 @@ If we look in `.venv/lib/python3.11/site-packages` we can see that `mkdocs` has 
 
 ## Freeze and Share Required Packages
 
-Now that we've added some packages it's a good idea to track what we've installed along with which specific version we're using. This is helpful if we're ever developing on another computer or collaborating with others people.
+Now that we've added some packages it's a good idea to track what we've installed along with which specific version we're using. This is helpful if we're ever developing on another computer or collaborating with other people.
 
 To generate a list of packages, run the following:
 
@@ -98,7 +98,7 @@ To generate a list of packages, run the following:
 $ python -m pip freeze > requirements.txt
 ```
 
-This creates a `requirements.txt` file in our project that we or others can use to install the same exact packages we're using. The file could be named anything but `requirements.txt` seems to be the agreed upon standard for Python projects.
+This creates a `requirements.txt` file in our project that we or others can use to install the same packages we're using. The file could be named anything but `requirements.txt` seems to be the agreed-upon standard for Python projects.
 
 Here's what ours looks like now:
 
@@ -132,6 +132,6 @@ $ python -m pip install -r requirements.txt
 
 ## Summary
 
-We've learned how to install Python using asdf, create virtual environments using venv and how to add and track packages using pip. This should help us feel a little less lost when working on Python projects moving forward.
+We've learned how to install Python using asdf, create virtual environments using venv, and add and track packages using pip. This should help us feel a little less lost when working on Python projects moving forward.
 
-As one might guess, these are not the only tools available for managing Python versions and packages but for the most part we're leaning on what's built in with Python - modules that should always be available once Python is installed.
+As one might guess, these are not the only tools available for managing Python versions and packages but for the most part, we're leaning on what's built in with Python - modules that should always be available once Python is installed.
