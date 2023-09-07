@@ -1,8 +1,6 @@
-.bundle
-.cache
 .DS_Store
-.sass-cache
-build/
+
+site/
 
 # Local Netlify folder
 .netlify
