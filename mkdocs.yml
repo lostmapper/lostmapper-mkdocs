@@ -3,6 +3,8 @@ site_url: https://lostmapper.com/
 site_description: Wandering in the world of map-making, cartography and GIS
 site_author: Brian Kelly
 
+repo_url: https://github.com/lostmapper/lostmapper.com
+
 copyright: 'Copyright &copy; 2023 Brian Kelly'
 
 theme:
@@ -12,13 +14,31 @@ theme:
     logo: material/map
   palette:
     primary: green
+  features:
+    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
 extra:
   analytics:
     provider: google
     property: G-55T428V372
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@lostmapper
+    - icon: fontawesome/brands/mastodon
+      link: https://mapstodon.space/@lostmapper
+    - icon: fontawesome/brands/github
+      link: https://github.com/lostmapper
+    - icon: fontawesome/solid/envelope
+      link: mailto:brian@lostmapper.com
 plugins:
   - blog:
       archive: false
   - social
+  - search
 markdown_extensions:
   - admonition
+nav:
+  - index.md
+  - blog/index.md
