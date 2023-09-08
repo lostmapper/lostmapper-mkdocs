@@ -8,4 +8,6 @@ YouTube videos coming soon: [https://www.youtube.com/@lostmapper](https://www.yo
 
 Follow me on Mastodon: [@lostmapper@mapstodon.space](https://mapstodon.space/@lostmapper)
 
-Email me: Email me: [brian@lostmapper.com](mailto:brian@lostmapper.com)
+Email me: [brian@lostmapper.com](mailto:brian@lostmapper.com)
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#67AC5A', 'Q5Q1E736');kofiwidget2.draw();</script>
