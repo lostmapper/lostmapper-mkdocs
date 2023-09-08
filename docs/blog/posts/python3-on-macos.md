@@ -55,9 +55,8 @@ $ source .venv/bin/activate
 
 The first line creates a virtual environment in the subdirectory `.venv`. The second line activates that virtual environment. After that, any packages we add will only be installed within that virtual environment.
 
-### Ignore .venv in Version Control
-
-If you're using a version control system like [Git](https://git-scm.com) you'll want to add the `.venv` directory to your project's `.gitignore` file so that you're not checking all those packages in.
+!!! warning "Don't Check In Your Virtual Environment Directory"
+    If you're using a version control system like [Git](https://git-scm.com) you'll want to add the `.venv` directory to your project's `.gitignore` file so that you're not checking all those packages in.
 
 ## Visualize Python Versions and Virtual Environments (Optional)
 
@@ -122,13 +121,12 @@ watchdog==3.0.0
 
 Of course, depending on when you do this the version numbers may differ.
 
-### Install Required Packages
+!!! tip "Installing Packages On Another Computer"
+    To install all the same packages on another computer, run the following command after creating and activating your virtual environment:
 
-To install all the same packages on another computer, run the following:
-
-```bash
-$ python -m pip install -r requirements.txt
-```
+    ```
+    $ python -m pip install -r requirements.txt
+    ```
 
 ## Summary
 

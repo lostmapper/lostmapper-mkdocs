@@ -1,8 +1,13 @@
 site_name: Lost Mapper
 site_url: https://lostmapper.com/
 site_description: Wandering in the world of map-making, cartography and GIS
+site_author: Brian Kelly
+
+copyright: 'Copyright &copy; 2023 Brian Kelly'
+
 theme:
   name: material
+  language: en
   icon:
     logo: material/map
   palette:
@@ -12,5 +17,8 @@ extra:
     provider: google
     property: G-55T428V372
 plugins:
-  - blog
+  - blog:
+      archive: false
   - social
+markdown_extensions:
+  - admonition
