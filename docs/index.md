@@ -6,7 +6,7 @@ Wandering in the world of map-making, cartography and GIS.
 
 YouTube videos coming soon: [https://www.youtube.com/@lostmapper](https://www.youtube.com/@lostmapper)
 
-Follow me on Mastodon: [@lostmapper@mapstodon.space](https://mapstodon.space/@lostmapper)
+Follow me on Mastodon: <a rel="me" href="https://mapstodon.space/@lostmapper">@lostmapper@mapstodon.space</a>
 
 Follow me on GitHub: [lostmapper](https://github.com/lostmapper)
 
