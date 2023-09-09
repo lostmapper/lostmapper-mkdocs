@@ -1,6 +1,6 @@
 # Welcome!
 
-<img src="images/logo.png" width="320" height="320" alt="Confused head behind a folded piece of paper with the words Lost Mapper on it." />
+<img src="images/logo.png" width="160" height="160" alt="Confused head behind a folded piece of paper with the words Lost Mapper on it." />
 
 Wandering in the world of map-making, cartography and GIS.
 
