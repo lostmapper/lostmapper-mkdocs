@@ -2,6 +2,7 @@
 date: 2023-09-07
 title: Python 3 on macOS
 description: Setting up Python 3, virtual environments and package management on macOS
+comments: true
 ---
 
 # Python 3 on macOS
