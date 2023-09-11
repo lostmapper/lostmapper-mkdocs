@@ -1,0 +1,8 @@
+Name,URL,Min,Max
+Google Maps,https://mt0.google.com/vt/lyrs=m&x={x}&y={y}&z={z},0,19
+Google Maps (Altered),https://mt0.google.com/vt/lyrs=r&x={x}&y={y}&z={z},0,19
+Google Roads,https://mt0.google.com/vt/lyrs=h&x={x}&y={y}&z={z},0,19
+Google Satellite,https://mt0.google.com/vt/lyrs=s&x={x}&y={y}&z={z},0,19
+Google Satellite Hybrid,https://mt0.google.com/vt/lyrs=y&x={x}&y={y}&z={z},0,19
+Google Terrain,https://mt0.google.com/vt/lyrs=t&x={x}&y={y}&z={z},0,19
+Google Terrain Hybrid,https://mt0.google.com/vt/lyrs=p&x={x}&y={y}&z={z},0,19

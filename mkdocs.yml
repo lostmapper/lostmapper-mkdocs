@@ -43,8 +43,13 @@ plugins:
       archive: false
   - social
   - search
+  - table-reader
+  - gen-files:
+      scripts:
+        - generate_xyz_tiles.py
 markdown_extensions:
   - admonition
 nav:
   - index.md
   - blog/index.md
+  - "QGIS XYZ Tiles": qgis-xyz-tiles.md
