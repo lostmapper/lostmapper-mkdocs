@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # QGIS XYZ Tiles
 
 This is a collection of XYZ Tiles for use in QGIS. The collection will grow as more sources are discovered and confirmed.
