@@ -52,3 +52,4 @@ markdown_extensions:
 nav:
   - index.md
   - blog/index.md
+  - "QGIS XYZ Tiles": qgis-xyz-tiles.md
