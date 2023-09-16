@@ -53,3 +53,5 @@ nav:
   - index.md
   - blog/index.md
   - "QGIS XYZ Tiles": qgis-xyz-tiles.md
+  - resources.md
+  - about.md
