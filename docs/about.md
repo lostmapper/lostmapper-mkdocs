@@ -16,8 +16,10 @@ You can reach me at [brian@lostmapper.com](mailto:brian@lostmapper.com). My pers
 
 Here are some of the things I use to create content:
 
+- [EasyRes](http://easyresapp.com) for easily switching screen resolutions
 - [Floating Head](https://apps.apple.com/us/app/floating-head-show-yourself/id1565946661) for getting my face in videos
 - [GitHub](https://github.com/lostmapper) for maintaining code
+- [Kap](https://getkap.co) for recording my screen
 - [Netlify](https://www.netlify.com) for hosting lostmapper.com
 - [PyCharm](https://www.jetbrains.com/pycharm/) for editing code
 
