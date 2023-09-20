@@ -54,4 +54,5 @@ nav:
   - blog/index.md
   - "QGIS XYZ Tiles": qgis-xyz-tiles.md
   - resources.md
+  - "Tools": https://tools.lostmapper.com
   - about.md
