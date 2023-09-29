@@ -1,11 +1,11 @@
 ---
 date: 2023-09-22
-title: Working with GPX files in QGIS
+title: Working with GPX files in QGIS - Part 1
 description: In this video I cover 3 different ways you can add Google Maps to your QGIS projects.
 readtime: 12
 ---
 
-# Working with GPX files in QGIS
+# Working with GPX files in QGIS - Part 1
 
 In this video I cover 3 different ways you can add Google Maps to your QGIS projects.
 
