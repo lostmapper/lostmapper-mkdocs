@@ -32,12 +32,15 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/lostmapper
       name: "lostmapper on GitHub"
+    - icon: fontawesome/solid/mug-saucer
+      link: https://ko-fi.com/lostmapper
+      name: "Support me via Ko-Fi"
+    - icon: fontawesome/brands/patreon
+      link: https://www.patreon.com/lostmapper
+      name: "Support me via Patreon"
     - icon: fontawesome/solid/envelope
       link: mailto:brian@lostmapper.com
       name: "brian@lostmapper.com"
-    - icon: fontawesome/solid/mug-saucer
-      link: https://ko-fi.com/lostmapper
-      name: "Support Me on Ko-Fi"
 plugins:
   - blog:
       archive: false
