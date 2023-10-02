@@ -29,6 +29,9 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://mapstodon.space/@lostmapper
       name: "@lostmapper on Mapstodon"
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/lostmapper
+      name: "lostmapper on Facebook"
     - icon: fontawesome/brands/github
       link: https://github.com/lostmapper
       name: "lostmapper on GitHub"
@@ -38,6 +41,9 @@ extra:
     - icon: fontawesome/brands/patreon
       link: https://www.patreon.com/lostmapper
       name: "Support me via Patreon"
+    - icon: fontawesome/solid/wallet
+      link: https://account.venmo.com/u/lostmapper
+      name: "Support me via Venmo"
     - icon: fontawesome/solid/envelope
       link: mailto:brian@lostmapper.com
       name: "brian@lostmapper.com"
