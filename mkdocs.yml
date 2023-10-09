@@ -29,6 +29,9 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://mapstodon.space/@lostmapper
       name: "@lostmapper on Mapstodon"
+    - icon: fontawesome/solid/sun
+      link: https://bsky.app/profile/lostmapper.bsky.social
+      name: "@lostmapper on Bluesky"
     - icon: fontawesome/brands/facebook
       link: https://facebook.com/lostmapper
       name: "lostmapper on Facebook"
@@ -47,6 +50,9 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:brian@lostmapper.com
       name: "brian@lostmapper.com"
+    - icon: fontawesome/solid/asterisk
+      link: https://linktr.ee/lostmapper
+      name: "lostmapper Linktree"
 plugins:
   - blog:
       archive: false
