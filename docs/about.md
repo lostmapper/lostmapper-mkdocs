@@ -19,8 +19,9 @@ Here are some of the things I use to create content:
 - [EasyRes](http://easyresapp.com) for easily switching screen resolutions
 - [Final Cut Pro](https://www.apple.com/final-cut-pro/) for editing videos
 - [Floating Head](https://apps.apple.com/us/app/floating-head-show-yourself/id1565946661) for getting my face into videos
+- [Fly](https://fly.io) for hosting <https://tools.lostmapper.com/>
 - [GitHub](https://github.com/lostmapper) for sharing code
-- [Netlify](https://www.netlify.com) for hosting lostmapper.com
+- [Netlify](https://www.netlify.com) for hosting <https://lostmapper.com/>
 - [PyCharm](https://www.jetbrains.com/pycharm/) for editing code
 
 ## About this Site
