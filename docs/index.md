@@ -6,7 +6,7 @@ Wandering in the world of map-making, cartography and GIS.
 
 Watch me on [YouTube](https://www.youtube.com/@lostmapper)
 
-Follow me on <a rel="me" href="https://mapstodon.space/@lostmapper">Mastodon</a>, [Bluesky](https://bsky.app/profile/lostmapper.bsky.social), [Facebook](https://facebook.com/lostmapper) and [GitHub](https://github.com/lostmapper)
+Follow me on <a rel="me" href="https://mapstodon.space/@lostmapper">Mastodon</a>, [Bluesky](https://bsky.app/profile/lostmapper.bsky.social), [Facebook](https://facebook.com/lostmapper), [GitHub](https://github.com/lostmapper) and [Tumblr](https://lostmapper.tumblr.com/)
 
 Support me via [Ko-fi](https://ko-fi.com/lostmapper), [Patreon](https://www.patreon.com/lostmapper) and [Venmo](https://account.venmo.com/u/lostmapper)
 
