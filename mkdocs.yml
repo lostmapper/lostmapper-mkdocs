@@ -38,6 +38,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/lostmapper
       name: "lostmapper on GitHub"
+    - icon: fontawesome/brands/medium
+      link: https://lostmapper.medium.com
+      name: "lostmapper on Medium"
     - icon: fontawesome/brands/tumblr
       link: https://lostmapper.tumblr.com
       name: "lostmapper on Tumblr"
